@@ -1,0 +1,4 @@
+﻿[
+  {"key" : "你好", "value" : "hello"}, 
+  {"key" : "你几岁", "value" : "how old are you"}
+]
