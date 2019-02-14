@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Hellgate/Scenes/HellgateEmpty.unity
-    guid: cad739291b20346a9b21c987b42dd6fb
+    path: Assets/Framework/Unity/Template/Init/Scenes/InitScene.unity
+    guid: 12d7ce14b1ee68d4bb02f18c047e4595
+  - enabled: 1
+    path: Assets/1.unity
+    guid: b904ccbc51447e442b235349434b809c
