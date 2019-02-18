@@ -160,6 +160,11 @@
             <param name="property"></param>
             <param name="label"></param>
         </member>
+        <member name="T:BasisEditor.Framework.Unity.Editor.MultiLanguageEditor">
+            <summary>
+            多语言编辑器脚本
+            </summary>
+        </member>
         <member name="T:TextureDetails">
             <summary>
             贴图详情类

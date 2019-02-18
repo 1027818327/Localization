@@ -120,10 +120,7 @@ namespace Framework.Unity
         public void ProcedureEnd()
         {
             Scene tempS = SceneManager.GetActiveScene();
-            if (tempS != null)
-            {
-                SceneManager.LoadScene(tempS.buildIndex + 1);
-            }
+            SceneManager.LoadScene(tempS.buildIndex + 1);
         }
 
         public void RegisterEndCallback(Action action)

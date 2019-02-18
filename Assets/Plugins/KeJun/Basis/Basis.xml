@@ -708,6 +708,12 @@
             加载流程开始
             </summary>
         </member>
+        <member name="M:Framework.Unity.MultiLanguage.LanguageManager.LoadSprite(System.String)">
+            <summary>
+            从指定路径加载图片
+            </summary>
+            <param name="varPath"></param>
+        </member>
         <member name="T:Framework.Unity.MultiLanguage.LanguageType">
             <summary>
             语言类型
@@ -926,6 +932,26 @@
         <member name="F:Framework.Unity.MultiLanguage.LanguageType.Unknown">
             <summary>
             未知
+            </summary>
+        </member>
+        <member name="T:Framework.Unity.MultiLanguage.LanguageImage">
+            <summary>
+            针对UGUI Image解析文本
+            </summary>
+        </member>
+        <member name="F:Framework.Unity.MultiLanguage.LanguageImage.mKey">
+            <summary>
+            文本
+            </summary>
+        </member>
+        <member name="M:Framework.Unity.MultiLanguage.LanguageImage.UpdateSprite">
+            <summary>
+            更新文本
+            </summary>
+        </member>
+        <member name="M:Framework.Unity.MultiLanguage.LanguageImage.SwitchLanguage">
+            <summary>
+            语言切换
             </summary>
         </member>
         <member name="T:Framework.Unity.MultiLanguage.LanguageText">
